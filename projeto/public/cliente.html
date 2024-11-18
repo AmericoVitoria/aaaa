@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Alterado para pt-BR, já que é um site brasileiro -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/logologin.ico" type="image">
+</head>
+
+<body class="cadastroCliente">
+    <div class="cliente_corpo">
+        <h1>Cadastro de Cliente</h1>
+        <form id="FormCadastroCliente">
+            <div class="Cadastro_cliente_div">
+
+                <!-- Inputs do formulário de cliente -->
+                
+                <input type="text" id="nomecliente" placeholder="Nome:" required>
+                <br><br>
+                <input type="text" id="cpf_cliente" placeholder="CPF:" required>
+                <br><Br>
+                <input type="text" id="telcliente" placeholder="Telefone:" required>
+                <br><br>
+                <input type="text" id="endereço_cliente" placeholder="Endereço:" required>
+ 
+                <div class="Cliente_botoes">
+                    <!-- Botões de ação -->
+                    <button type="button" onclick="cadastrarCliente()">Cadastrar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

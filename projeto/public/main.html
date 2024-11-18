@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abas Funcionais</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="shortcut icon" href="imagens/logologin.ico" type="image">
+</head>
+<body><header class="header">
+    <div class="header-icon">
+        <img src="/projeto/public/imagens/logologin.png">
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Pesquisar...">
+        <img src="/projeto/public/imagens/search.png">
+    </div>
+    <div class="user-icon">
+        <img src="/projeto/public/imagens/profile.png">
+    </div>
+</header>
+
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab(event, 'servicos')" style="background-color: #e0baba;">serviços</button>
+
+        <button class="tab-button" onclick="openTab(event, 'agenda')" style="background-color: #c7d9ed;">agenda</button>
+
+        <button class="tab-button" onclick="openTab(event, 'cadastro-cliente')" style="background-color: #f3e9c4;">cadastro cliente</button>
+
+        <button class="tab-button" onclick="openTab(event, 'cliente-pet')" style="background-color: #d0e9d5;">cliente pet</button>
+    </div>
+
+    <div id="servicos" class="tab-content">Conteúdo de Serviços</div>
+
+    <div id="agenda" class="tab-content" style="display:none;">Conteúdo da Agenda</div>
+
+    <div id="cadastro-cliente" class="tab-content" style="display:none;">Conteúdo de Cadastro Cliente</div>
+
+    <div id="cliente-pet" class="tab-content" style="display:none;">Conteúdo de Cliente Pet</div>
+    
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p>Pet daffara está sempre <br>preocupado com o bem <br>estar de seu pet</p>
+            <img src="butterfly-icon.png" alt="Borboleta" class="icon">
+        </div>
+        <div class="footer-right">
+            <h3>meios de contato</h3>
+            <div class="social-icons">
+                <img src="/projeto/public/imagens/facebook.png">
+                <img src="/projeto/public/imagens/instagram.png">
+                <img src="/projeto/public/imagens/twitter.png" >
+            </div>
+            <p>petdaffara.@gmail.com</p>
+            <p>+5545667343432</p>
+        </div>
+    </footer>
+</html>

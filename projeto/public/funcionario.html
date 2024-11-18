@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/logologin.ico" type="image">
+</head>
+<body class="cadastro_body">
+    <div class="corpo">
+        <h1>Cadastro de Funcionarios</h1>
+        <p class="logi">Já é cadastrado? <a href="login.html">login</a></p>
+        <form id="cadastrofuncionario">
+            <div class="cadastro_div">
+                <input type="text" id="nome" placeholder="Nome completo:" required>
+
+                <input type="text" id="email" placeholder="Email:" required>
+
+                <input type="text" id="senha" placeholder="Senha:" required>
+
+                <input type="text" id="c_senha" placeholder="confirmar senha:">
+
+                <input type="int" id="telefone" placeholder="Número de telefone:" required>
+
+                <input type="int" id="cpf" placeholder="cpf:">
+    
+                
+                <div class="botoes">
+                    <button type="button" onclick="cadastrarFuncionario()">Cadastrar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </div>
+        </form>
+
+        <div id="mensagem" class="mensagem"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+</html>

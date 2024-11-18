@@ -1,0 +1,469 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.cadastro_body {
+    font-family: Arial, sans-serif;
+    background-color: #c5dfe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.corpo {
+    background-color: #F6EEE2;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.corpo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    color: #372e47;
+}
+
+.logi {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    color: #372e47;
+}
+
+.logi a {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.cadastro_div input, .cadastro_div textarea {
+    background: transparent;
+    border-bottom: 1px solid #b0c89b;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.corpo button {
+    width: 48%;
+    padding: 10px;
+    background-color: #b0c89b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-family: "Fredoka", sans-serif;
+}
+
+.corpo button:hover {
+    background-color: #9db585;
+}
+
+.mensagem {
+    font-family: "Fredoka", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #b0c89b;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .corpo {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .cadastro_div input, .cadastro_div textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .corpo button {
+        padding: 12px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .corpo {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .corpo h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .cadastro_div input, .cadastro_div textarea {
+        font-size: 14px;
+    }
+
+    .corpo button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .logi {
+        font-size: 14px;
+    }
+}
+
+
+
+/* -----------------------CADASTRO PET--------------------------- */
+
+
+
+/* Estilos globais */
+body, html {
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+}
+
+.cadastro_pet_body {
+    font-family: Arial, sans-serif;
+    background-color: #c5e6cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.pet_corpo {
+    background-color: #F6EEE2;
+    padding: 20px; 
+    border-radius: 8px;
+    max-width: 400px; 
+    width: 100%; 
+}
+
+.pet_corpo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    color: #372e47;
+}
+
+.pet_cadastro_div input, .pet_cadastro_div select {
+    background: transparent;
+    border-bottom: 1px solid #b0c89b; 
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    margin-top: 15px; 
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+
+.caixinha_pet {
+    resize: none;
+    height: 100px;
+    background: transparent;
+    border: 1px solid #b0c89b;
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    margin-top: 20px; 
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.pet_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pet_corpo button {
+    width: 48%;
+    padding: 10px; 
+    background-color: #b0c89b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-family: "Fredoka", sans-serif;
+}
+
+.pet_corpo button:hover {
+    background-color: #9db585; 
+}
+
+.pet_mensagem {
+    font-family: "Fredoka", sans-serif;
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 16px;
+    color: #b0c89b;
+}
+
+
+
+/* -----------------------CADASTRO CLIENTE--------------------------- */
+
+
+
+
+/* Reset de margens e alturas */
+body, html {
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+}
+
+/* Estilo principal para a página de cadastro */
+.cadastroCliente {
+    font-family: Arial, sans-serif;
+    background-color: #f3edbe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* A página ocupa 100% da altura da tela */
+}
+
+/* Estilo do corpo do formulário */
+.cliente_corpo {
+    background-color: #F6EEE2;
+    padding: 20px; 
+    border-radius: 8px;
+    max-width: 400px; 
+    width: 100%; /* Faz o formulário ocupar todo o espaço possível */
+}
+
+/* Estilo do título */
+.cliente_corpo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    color: #372e47;
+}
+
+/* Estilo dos inputs */
+.Cadastro_cliente_div input {
+    background: transparent;
+    border-bottom: 1px solid #b0c89b; 
+    border: none; /* Remove todas as bordas, exceto a inferior */
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    margin-top: 15px; 
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%; /* Inputs ocupam 100% da largura disponível */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+/* Estilo dos botões */
+.Cliente_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* Estilo dos botões no estado normal */
+.cliente_corpo button {
+    width: 48%; /* Os botões ocupam metade do espaço */
+    padding: 10px; 
+    background-color: #b0c89b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease; /* Transição suave para hover */
+    font-family: "Fredoka", sans-serif;
+}
+
+/* Mudança de cor ao passar o mouse */
+.cliente_corpo button:hover {
+    background-color: #8aa671; /* Cor diferente no hover */
+}
+/* Reset de margens e alturas */
+body, html {
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+}
+
+/* Estilo principal para a página de cadastro */
+.cadastroCliente {
+    font-family: Arial, sans-serif;
+    background-color: #f3edbe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* A página ocupa 100% da altura da tela */
+}
+
+/* Estilo do corpo do formulário */
+.cliente_corpo {
+    background-color: #F6EEE2;
+    padding: 20px; 
+    border-radius: 8px;
+    max-width: 400px; 
+    width: 100%; /* Faz o formulário ocupar todo o espaço possível */
+}
+
+/* Estilo do título */
+.cliente_corpo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    color: #372e47;
+}
+
+/* Estilo dos inputs */
+.Cadastro_cliente_div input {
+    background: transparent;
+    border-bottom: 1px solid #b0c89b; 
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    margin-top: 15px; 
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%; /* Inputs ocupam 100% da largura disponível */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+/* Estilo dos botões */
+.Cliente_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* Estilo dos botões no estado normal */
+.cliente_corpo button {
+    width: 48%; /* Os botões ocupam metade do espaço */
+    padding: 10px; 
+    background-color: #b0c89b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease; /* Transição suave para hover */
+    font-family: "Fredoka", sans-serif;
+}
+
+/* Mudança de cor ao passar o mouse */
+.cliente_corpo button:hover {
+    background-color: #8aa671; /* Cor diferente no hover */
+}
+
+
+
+
+/* --------------------------------- CADASTRO SERVIÇO ---------------------------------*/
+
+/* Estilos globais */
+body, html {
+    margin: 0;
+    padding: 0; 
+    height: 100%; 
+}
+
+.cadastroserviço {
+    font-family: Arial, sans-serif;
+    background-color: #f3c0be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz com que o corpo ocupe toda a altura da tela */
+}
+
+.serviço {
+    background-color: #F6EEE2;
+    padding: 20px; 
+    border-radius: 8px;
+    max-width: 400px; 
+    width: 100%; 
+}
+
+.serviço h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    color: #372e47;
+}
+
+.serviços_div input, .serviços_div select {
+    background: transparent;
+    border-bottom: 1px solid #b0c89b; 
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    margin-top: 15px; 
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box; /* Garante que padding e bordas sejam incluídos no tamanho total */
+}
+
+.Serviço_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.serviço button {
+    width: 48%;
+    padding: 10px; 
+    background-color: #b0c89b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-family: "Fredoka", sans-serif;
+}
+
+.serviço button:hover {
+    background-color: #9db585; /* Cor ao passar o mouse */
+}
+
